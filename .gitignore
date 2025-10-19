@@ -1,0 +1,31 @@
+﻿# Arquivo .gitignore padrão para projetos .NET (Visual Studio)
+
+## Pasta de Build (Compilação)
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+
+## Configurações de Usuário do Visual Studio
+*.suo
+*.user
+*.sln.docstates
+
+## Pasta de Pacotes NuGet
+packages/
+*.nupkg
+
+## Arquivos gerados
+*.generated.cs
+
+## Arquivos de Log
+*.log
+*.log.*
+
+## Diretório do Visual Studio
+.vs/
+
+## Arquivos do S.O.
+*~
+.DS_Store
+Thumbs.db
